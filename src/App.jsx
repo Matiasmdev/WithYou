@@ -438,17 +438,5 @@ const App = () => {
 };
 
 // Función para obtener información del video de YouTube
-const fetchVideoInfo = async (videoId) => {
-  const apiKey = 'AIzaSyAd1lP9r1IrqqpqhP89mjRYMhGW1xIQ3bc'; // Coloca tu clave API de YouTube aquí
-  const url = `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${videoId}&key=${apiKey}`;
-
-  try {
-    const response = await axios.get(url);
-    return response.data;
-  } catch (error) {
-    console.error('Error fetching video info:', error);
-    return null;
-  }
-};
 
 export default App;
