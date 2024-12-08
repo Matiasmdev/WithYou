@@ -9,8 +9,6 @@ const io = socketIo(server, {
   cors: {
     origin: ["https://withyou.vercel.app", "http://localhost:5173"], // Ajusta esto a los orígenes de tus clientes
     methods: ["GET", "POST"],
-    allowedHeaders: ["my-custom-header"],
-    credentials: true
   }
 });
 
