@@ -15,8 +15,6 @@ const io = socketIo(server, {
 app.use(cors({
   origin: ["https://withyou.vercel.app", "http://localhost:5173"],
   methods: ["GET", "POST"],
-  allowedHeaders: ["my-custom-header"],
-  credentials: true
 }));
 
 let rooms = {};
