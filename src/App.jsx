@@ -5,7 +5,7 @@ import ReactPlayer from 'react-player';
 import axios from 'axios';
 import VideoChat from './components/VideoChat'; // Importar el componente VideoChat
 
-const socket = io('http://localhost:3000');
+const socket = io('https://withyou-w87u.onrender.com');
 
 const WelcomeScreen = ({ onCreateRoom, onJoinRoom }) => {
   const [name, setName] = useState('');
