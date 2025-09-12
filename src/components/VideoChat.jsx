@@ -302,7 +302,7 @@ const VideoChat = ({ isHost, isPlaying, videoUrl }) => {
         </div>
         <div className="flex justify-center">
           <div className="bg-black/50 backdrop-blur-sm text-white px-2 py-1 rounded-xl">
-            <p className="font-medium text-xs">Guest</p>
+            <p className="font-medium text-xs">Guest.</p>
           </div>
         </div>
       </div>
