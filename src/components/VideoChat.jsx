@@ -286,7 +286,7 @@ const VideoChat = ({ isHost, isPlaying, videoUrl }) => {
         </div>
         <div className="flex justify-center">
           <div className="bg-black/50 backdrop-blur-sm text-white px-2 py-1 rounded-xl flex items-center space-x-1">
-            <span className="font-medium text-xs">Tú</span>
+            <span className="font-medium text-xs">Host</span>
             {!isAudioEnabled && <MicOff size={12} className="text-red-400" />}
             {!isVideoEnabled && <VideoOff size={12} className="text-red-400" />}
           </div>
@@ -302,7 +302,7 @@ const VideoChat = ({ isHost, isPlaying, videoUrl }) => {
         </div>
         <div className="flex justify-center">
           <div className="bg-black/50 backdrop-blur-sm text-white px-2 py-1 rounded-xl">
-            <p className="font-medium text-xs">TuAmor</p>
+            <p className="font-medium text-xs">Guest</p>
           </div>
         </div>
       </div>
