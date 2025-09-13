@@ -36,7 +36,7 @@ const WelcomeScreen = ({ onCreateRoom, onJoinRoom }) => {
         <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
           WithYou
         </h1>
-        <p className="text-base sm:text-xl mb-6">El día está para ver algo juntos. ¿Cuál es tu nombre?</p>
+        <p className="text-base sm:text-xl mb-6">Mira, comparte, conecta.</p>
 
         <input
           type="text"
