@@ -92,6 +92,13 @@ const WelcomeScreen = ({ onCreateRoom, onJoinRoom }) => {
           </div>
         )}
       </div>
+      <div className="bg-gray-900/20 py-2 text-center absolute bottom-0 w-full">
+        <p className="text-white/70 text-sm">
+          <a href="https://matiascoder.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            desarrollado por matiasdev
+          </a>
+        </p>
+      </div>
     </div>
   );
 };
@@ -420,7 +427,9 @@ const App = () => {
       {!isHidden && (
         <div className="bg-gray-900/20 py-2 text-center">
           <p className="text-white/70 text-sm">
-            Hecho con ❤️ por Sebadev
+            <a href="https://matiascoder.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+              desarrollado por matiasdev
+            </a>
           </p>
         </div>
       )}
