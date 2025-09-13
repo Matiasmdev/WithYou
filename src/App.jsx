@@ -96,7 +96,7 @@ const WelcomeScreen = ({ onCreateRoom, onJoinRoom }) => {
       <div className="bg-gray-900/20 py-2 text-center absolute bottom-0 w-full">
         <p className="text-white/70 text-sm flex flex-col">
           <span>© 2025 WithYou.</span> 
-          <span>Desarrollado por <a href="https://github.com/matiascoder" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">@matiascoder</a>.</span>
+          <span>Desarrollado por <a href="https://www.matiascoder.com" target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">@matiascoder</a>.</span>
         </p>
       </div>
     </div>
