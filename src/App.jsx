@@ -33,9 +33,10 @@ const WelcomeScreen = ({ onCreateRoom, onJoinRoom }) => {
   return (
     <div className="min-h-screen bg-black flex flex-col items-center justify-center text-white">
       <div className="text-center w-full max-w-md px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-pink-500">
-          WithYou
-        </h1>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+  WithYou
+</h1>
+
         <p className="text-base sm:text-xl mb-6">Mira, comparte, conecta.</p>
 
         <input
